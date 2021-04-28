@@ -1,0 +1,21 @@
+{
+    "topic": "String", //Nome do tópico caso queira usar uma mensageria -- Topic name if use a mensage service
+    "content": {
+        "project": {
+            "code": "String", //Usado para identificar qual regra deverá usar para buscar os dados - ID for rule configuration and query definition
+            "title": "String", //Titulo da aplicação - Aplication name
+            "description": "String" //Detalhes sobre a aplicação - Detail about aplication
+        },
+        "columns": [
+            {
+                "description": "String", //Nome da coluna - Column name
+                "meta": "string", //Tipo de dado da coluna - Data type of column
+                "data": [
+                    {
+                        "value": "String" //Informação ou valor da coluna - Column data
+                    }
+                ]
+            }
+        ]
+    }
+}
